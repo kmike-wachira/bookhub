@@ -1,8 +1,11 @@
 
 <template>
+  <div class="d-flex justify-content-center mt-3">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/books">Books</router-link>
+  </div>
   <div class="page-container my-5">
-    <BookDescription/>
-    <!-- <BooksPage /> -->
+    <router-view />
   </div>
 </template>
 
