@@ -7,8 +7,9 @@
           data-mdb-ripple-color="light"
         >
           <img
-            src="https://mdbootstrap.com/img/new/standard/nature/111.webp"
-            class="img-fluid"
+            :src="book.thumbnailUrl"
+            class="img-fluid w-100 h-50"
+            :alt="book.title"
           />
           <a href="#!">
             <div class="mask"></div>
@@ -17,7 +18,7 @@
 
         <div class="card-body">
           <h5 class="card-title">{{ book.title}}</h5>
-          <p class="card-text"> Author {{ book.author}}
+          <p class="card-text"> Author {{ book.authors[0]}}
            
           </p>
           <button type="button" class="btn btn-outline-warning">Borrow Book</button>

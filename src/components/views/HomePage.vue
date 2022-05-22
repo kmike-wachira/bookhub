@@ -19,7 +19,7 @@
 import BookCard from "../BookCardComponent.vue";
 import Categories from "../Categories.vue";
 import Search from "../SearchComponent.vue";
-import mybooks from "../../assets/data.json";
+import mybooks from "../../assets/books.json";
 
 export default {
   components: {

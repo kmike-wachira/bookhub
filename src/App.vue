@@ -1,7 +1,8 @@
 
 <template>
-  <div class="page-container">
-    <BooksPage />
+  <div class="page-container my-5">
+    <BookDescription/>
+    <!-- <BooksPage /> -->
   </div>
 </template>
 
